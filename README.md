@@ -5,11 +5,12 @@ Getting the perfect Dataset is a huge challenge and also figuring out the depend
 
 I would recommend to use conda environment and install packages using conda (avoid using pip)
 
+Note: Both models below were trained on different datasets
 
 # Models
 **Model_0**
 
-Epochs: 3
+Epochs: 3 \n
 Accuracy: 99.681 0%
 Precision: 97.9730 %
 F1 Score: 95.0820 %
