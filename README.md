@@ -10,7 +10,7 @@ Note: Both models below were trained on different datasets
 # Models
 **Model_0**
 
-Epochs: 3 \n
+Epochs: 3 <br>
 Accuracy: 99.681 0%
 Precision: 97.9730 %
 F1 Score: 95.0820 %
