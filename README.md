@@ -7,7 +7,7 @@ I would recommend to use conda environment and install packages using conda (avo
 
 Note: Both models below were trained on different datasets
 
-# Models
+# Models Trained using this Trainer
 **Model_0**
 
 Epochs: 3 <br>
