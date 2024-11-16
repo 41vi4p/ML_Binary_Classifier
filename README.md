@@ -1,5 +1,5 @@
 # ML_Binary_Classifier
-ML Program to Train and create a Binary Classifier Model. Make sure to train them on your own LABELLED Dataset
+ML Program to Train and create a Binary Classifier Model using Transfer Learning. Make sure to train them on your own LABELLED Dataset
 
 Getting the perfect Dataset is a huge challenge and also figuring out the dependancies to run the ML trainer.
 
@@ -7,7 +7,7 @@ I would recommend to use conda environment and install packages using conda (avo
 
 Note: Both models below were trained on different datasets
 
-# Models
+# Models Trained using this Trainer
 **Model_0**
 
 Epochs: 3 <br>
