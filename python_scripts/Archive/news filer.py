@@ -4,7 +4,7 @@ import pandas as pd
 news_data = pd.read_csv('News_Articles_Indian_Express.csv')
 
 # Define cybersecurity-related keywords
-keywords = ['cybersecurity', 'hacking', 'malware', 'cybercrime', 'security breach']
+keywords = ['cybersecurity', 'hacking', 'malware', 'cybercrime', 'security breach', 'hackers', 'hacked']
 
 # Filter out news articles that contain cybersecurity-related keywords
 news_data_filtered = news_data[news_data['text'].str.contains('|'.join(keywords), case=False, na=False)]

@@ -27,7 +27,9 @@ def count_label_0_entries(csv_file_path):
     return count_label_0
 
 # Example usage
-csv_file_paths = ['best2.csv']  # List of CSV file paths
+#csv_file_paths = ['2.csv']
+csv_file_paths = [input("Enter filename: ")]
+  # List of CSV file paths
 for file_path in csv_file_paths:
     count_1 = count_label_1_entries(file_path)
     print(f"File: {file_path}")

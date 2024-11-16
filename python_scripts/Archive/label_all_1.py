@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Read the CSV file
-input_file = 'cyber-operations-incidents.csv'
+input_file = '3.csv'
 df = pd.read_csv(input_file)
 
 # Step 2: Add a label column with all values set to 1

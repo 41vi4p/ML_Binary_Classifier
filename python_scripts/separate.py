@@ -36,11 +36,14 @@ def create_balanced_dataset(input_csv_file_paths, final_output_csv_file_path):
     # Shuffle the combined DataFrame
     combined_df = combined_df.sample(frac=1, random_state=42).reset_index(drop=True)
     
+    # Filter out rows with label 0
+    filtered_df = combined_df[combined_df['Label'] != 0]
+    
     # Save the combined and shuffled DataFrame to a new CSV file
-    combined_df.to_csv(final_output_csv_file_path, index=False)
+    filtered_df.to_csv(final_output_csv_file_path, index=False)
     print(f"Combined and shuffled dataset saved to {final_output_csv_file_path}")
 
 # Example usage
-input_csv_file_paths = ['best2.csv']
-final_output_csv_file_path = 'OP_balanced.csv'
+input_csv_file_paths = ['uko2.csv']
+final_output_csv_file_path = 'all1.csv'
 create_balanced_dataset(input_csv_file_paths, final_output_csv_file_path)
